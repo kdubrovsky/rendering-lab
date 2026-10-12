@@ -1,0 +1,15 @@
+{
+  "name": "rendering-lab",
+  "description": "Rendering strategies lab",
+  "author": "Konstantin Tereschenkov",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.5.3",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "private": true
+}
