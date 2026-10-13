@@ -7,7 +7,7 @@ export interface Product {
 }
 
 export interface Price {
-  amount: number
+  amountCents: number
   currency: string
   inStock: boolean
 }

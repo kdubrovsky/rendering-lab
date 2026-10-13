@@ -1,7 +1,7 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import type { Product } from '@rendering-lab/contracts';
 import { products } from './products.data'; // fake data
-import { sleep } from '../sleep';
+import { sleep } from '../utils/sleep';
 
 @Injectable()
 export class ProductsService {
