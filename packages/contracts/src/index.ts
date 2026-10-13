@@ -11,3 +11,13 @@ export interface Price {
   currency: string
   inStock: boolean
 }
+
+export interface Review {
+  id: string
+  productId: string
+  author: string
+  rating: number
+  text: string
+  /** ISO 8601 */
+  createdAt: string
+}
