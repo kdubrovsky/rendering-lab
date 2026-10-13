@@ -1,9 +1,7 @@
 {
-  "$schema": "https://json.schemastore.org/tsconfig.json",
-  "extends": "@rendering-lab/ts-config/node.json",
-  "compilerOptions": {
-    "jsx": "react-jsx",
-    "noEmit": true
-  },
-  "include": ["src"]
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.server.json" },
+    { "path": "./tsconfig.client.json" }
+  ]
 }
