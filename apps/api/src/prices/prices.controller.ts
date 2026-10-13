@@ -3,11 +3,10 @@ import { PricesService } from './prices.service';
 
 @Controller('prices')
 export class PricesController {
-
-  constructor(private readonly pricesService: PricesService) { }
+  constructor(private readonly pricesService: PricesService) {}
 
   @Get(':id')
   findById(@Param('id') id: string) {
-    return this.pricesService.findById(id)
+    return this.pricesService.findById(id);
   }
 }

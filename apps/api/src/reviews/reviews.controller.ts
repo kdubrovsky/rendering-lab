@@ -3,10 +3,10 @@ import { ReviewsService } from './reviews.service';
 
 @Controller('reviews')
 export class ReviewsController {
-  constructor(private readonly reviewsService: ReviewsService) { }
+  constructor(private readonly reviewsService: ReviewsService) {}
 
   @Get(':id')
   findByProductId(@Param('id') productId: string) {
-    return this.reviewsService.findByProductId(productId)
+    return this.reviewsService.findByProductId(productId);
   }
 }

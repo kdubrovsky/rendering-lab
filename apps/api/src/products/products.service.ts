@@ -7,7 +7,7 @@ import { sleep } from '../utils/sleep';
 export class ProductsService {
   async findById(id: string): Promise<Product> {
     await sleep(300);
-    const product = products.find(product => product.id === id)
+    const product = products.find((product) => product.id === id);
     if (!product) throw new NotFoundException();
     return product;
   }

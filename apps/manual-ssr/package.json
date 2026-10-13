@@ -8,7 +8,6 @@
     "build:client": "esbuild src/client.tsx --bundle --format=esm --outfile=dist/client.js",
     "build:client:prod": "esbuild src/client.tsx --bundle --format=esm --minify --define:process.env.NODE_ENV=\\\"production\\\" --outfile=dist/client.prod.js",
     "typecheck": "tsc -b"
-
   },
   "dependencies": {
     "express": "^5.3.0",

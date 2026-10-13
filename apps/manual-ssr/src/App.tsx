@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState } from 'react';
 
 export function App({ id }: { id: string }) {
   const [counter, setCounter] = useState(0);
