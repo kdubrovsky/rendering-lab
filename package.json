@@ -13,11 +13,14 @@
   "type": "module",
   "private": true,
   "devDependencies": {
+    "prettier": "^3.9.10",
     "turbo": "^2.11.7"
   },
   "scripts": {
     "dev": "turbo run dev",
     "build": "turbo run build",
-    "typecheck": "turbo run typecheck"
+    "typecheck": "turbo run typecheck",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   }
 }
