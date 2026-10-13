@@ -1,0 +1,11 @@
+{
+  "format_on_save": "on",
+  "languages": {
+    "TypeScript": { "formatter": "prettier" },
+    "TSX": { "formatter": "prettier" },
+    "JavaScript": { "formatter": "prettier" },
+    "JSON": { "formatter": "prettier" },
+    "JSONC": { "formatter": "prettier" },
+    "YAML": { "formatter": "prettier" }
+  }
+}
