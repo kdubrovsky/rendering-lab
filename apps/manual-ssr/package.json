@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "tsx watch src/server.tsx",
-    "build:client": "esbuild src/client.tsx --bundle --format=esm --outfile=dist/client.js",
-    "build:client:prod": "esbuild src/client.tsx --bundle --format=esm --minify --define:process.env.NODE_ENV=\\\"production\\\" --outfile=dist/client.prod.js",
+    "dev": "tsx watch --tsconfig tsconfig.server.json src/server.tsx",
+    "build:client": "esbuild src/client.tsx --bundle --format=esm --tsconfig=tsconfig.client.json --outfile=dist/client.js",
+    "build:client:prod": "esbuild src/client.tsx --bundle --format=esm --minify --tsconfig=tsconfig.client.json --define:process.env.NODE_ENV=\\\"production\\\" --outfile=dist/client.prod.js",
     "typecheck": "tsc -b"
   },
   "dependencies": {
