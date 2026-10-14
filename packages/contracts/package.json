@@ -16,6 +16,6 @@
   },
   "devDependencies": {
     "@rendering-lab/ts-config": "workspace:*",
-    "typescript": "^7.0.2"
+    "typescript": "catalog:"
   }
 }

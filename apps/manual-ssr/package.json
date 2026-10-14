@@ -15,6 +15,7 @@
     "react-dom": "^19.3.0"
   },
   "devDependencies": {
+    "@rendering-lab/contracts": "workspace:*",
     "@rendering-lab/ts-config": "workspace:*",
     "@types/express": "^5.0.6",
     "@types/node": "^26.6.5",
@@ -22,6 +23,6 @@
     "@types/react-dom": "^19.3.0",
     "esbuild": "^0.28.2",
     "tsx": "^4.23.15",
-    "typescript": "^7.0.2"
+    "typescript": "catalog:"
   }
 }
